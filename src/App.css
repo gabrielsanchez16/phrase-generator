@@ -1,0 +1,34 @@
+* { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.App{
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-article{
+  background-color: #ffff;
+  width: 20%;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.container-article article h3{
+  text-align: end;
+  margin-right: 3%;
+  margin-top: 4%;
+
+}
+
+.container-article article button{
+  text-align: end;
+  margin-right: 5%;
+  padding: 4px;
+  border-radius: 40%;
+  cursor: pointer;
+}
